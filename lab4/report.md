@@ -15,6 +15,8 @@ ___
 - ``kubectl get nodes``
 - ``kubectl get pods -n kube-system -l k8s-app=calico-node``
 
+  ![nodes](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab4/nodes.png?raw=true)
+
 [nodes]
 
 Для проверки IPAM (IP Address Management), назначим метки узлам. Присвоем метку географического расположения: location=us-east и location=us-west, для соответсвующих нод.\
@@ -28,7 +30,6 @@ ___
 6) Установка calicoctl: ``kubectl create -f calicoctl.yaml``
 7) Создание IP пулов: ``kubectl exec -i -n kube-system calicoctl -- /calicoctl create -f - < ippool.yaml --allow-version-mismatch``
 8) Вывод информации о пулах: ``kubectl exec -i -n kube-system calicoctl -- /calicoctl get ippool -o wide   --allow-version-mismatch``
-
 9) Открываем доступ к сервису Minikube: ``minikube service frontend-service``
 10) Проброс портов: ``kubectl port-forward service/frontend-service 9090:9090``
 
@@ -37,8 +38,10 @@ ___
 - ``kubectl exec -it frontend-<first_pod> -- /bin/sh``
 - ``ping 10.244.120.67``
 
-
+  ![ping](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab4/ping.png?raw=true)
 ___
 
 ### Схема
+
+![schema](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab4/schema.png?raw=true)
 
