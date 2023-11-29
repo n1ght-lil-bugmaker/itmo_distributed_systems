@@ -27,7 +27,7 @@ ___
 5) Получение данных для входа в Vault (RootToken): ``kubectl logs vault``\
 6) Сервис доступен по адресу http://127.0.0.1:8200\
 
-[8200]
+![8200](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab1/8200.png?raw=true)
 
 ### Завершение
 1) Удаление пода: ``kubectl delete pod vault``\
@@ -37,3 +37,4 @@ ___
 ___
 
 ### Схема организации контейеров и сервисов
+![schema](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab1/schema.png?raw=true)
