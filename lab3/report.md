@@ -30,5 +30,9 @@ ___
 
 10) Вход в веб приложение по FQDN используя HTTPS и проверка наличия сертификата: https://lab3.front.local
 
+    ![certs](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab3/certinfo.png?raw=true)
+
 
 ### Схема
+
+![schema](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab3/schema.png?raw=true)
