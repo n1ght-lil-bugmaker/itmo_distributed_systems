@@ -23,7 +23,7 @@ REACT_APP_COMPANY_NAME: = '_testCompanyName'
 
 5) Логи контейнеров: ``kubectl logs frontend-deployment..``
 
-
+![logs](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab2/logs.png?raw=true)
 ___
 
 ### Схема
