@@ -19,7 +19,7 @@ REACT_APP_COMPANY_NAME: = '_testCompanyName'
 3) Запуск режима проброса портов: ``kubectl port-forward frontend-deployment.. 3001:3000``
 4) Смотрим через браузер веб-интерфейс:
 
-
+![res](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab2/running%20containers.png?raw=true)
 
 5) Логи контейнеров: ``kubectl logs frontend-deployment..``
 
@@ -27,3 +27,5 @@ REACT_APP_COMPANY_NAME: = '_testCompanyName'
 ___
 
 ### Схема
+
+![schema](https://github.com/n1ght-lil-bugmaker/itmo_distributed_systems/blob/main/lab2/schema.png?raw=true)
